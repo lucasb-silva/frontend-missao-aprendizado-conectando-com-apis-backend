@@ -1,7 +1,6 @@
 import './Card.css'
 
 export default function Card(props) {
-  console.log(props)
   return (
     <div className="card">
       <h2>{props.item.nome}</h2>
